@@ -1,0 +1,49 @@
+[project]
+name = "fast-zero"
+version = "0.1.0"
+description = "Estudos FastAPI - backend"
+authors = [
+    {name = "RBergamaschi",email = "rodrigotberga2121@hotmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4"
+dependencies = [
+    "fastapi (>=0.115.12,<0.116.0)"
+]
+
+[tool.poetry]
+packages = [{include = "fast_zero"}]
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.11.13"
+pytest = "^8.4.0"
+pytest-cov = "^6.1.1"
+taskipy = "^1.14.1"
+
+[tool.pytest.ini_options]
+pythonpath="."
+
+[tool.ruff]
+line-length = 79
+extend-exclude = ['migrations']
+
+[tool.ruff.lint]
+preview = true
+select = ['I', 'F', 'E', 'W', 'PL', 'PL']
+
+[tool.ruff.format]
+preview = true
+quote-style = 'single'
+
+[tool.taskipy.tasks]
+run = 'fastapi dev fast_zero\app.py'
+pre_test = 'task lint'
+test = 'pytest --cov=fast_zero -vv'
+lint = 'ruff check . && ruff check . --diff'
+format = 'ruff check . --fix && ruff format .'
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

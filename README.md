@@ -61,7 +61,9 @@ Uma API REST desenvolvida com **FastAPI** para gerenciar atividades físicas dos
     3. Pytest:
         [tool.pytest.ini_options]
         pythonpath="."
-
+### Iniciando o projeto:
+    1. poetry env activate
+    2. poetry run task run -> ja que configuramos o taskipy e falamos que o run seria o comando para iniciar o fastapi
 ### Documentação Automática:
     Swagger: http://127.0.0.1:8000/docs
     Redoc: http://127.0.0.1:8000/redoc

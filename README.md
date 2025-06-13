@@ -1,6 +1,6 @@
 # 🏋️‍♀️ Fitness API com FastAPI
 
-Uma API REST para gerenciamento de atividades físicas, desenvolvida com **FastAPI** e **SQLAlchemy**. A aplicação permite registrar atividades como corridas, caminhadas e exercícios diversos, com suporte a autenticação, validações, relatórios e filtros por usuário, nome e data.
+Uma API REST para gerenciamento de atividades físicas, desenvolvida com **FastAPI** e **SQLAlchemy**. A aplicação permite registrar atividades como corridas, caminhadas e exercícios diversos, com suporte a validações, relatórios e filtros por usuário, nome e data.
 
 ---
 

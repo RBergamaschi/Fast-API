@@ -153,6 +153,11 @@ Retorna estatísticas do usuário:
 
 - 🚫 Nenhum campo obrigatório pode estar vazio ou inválido.
 
+# Documentação 
+
+- Swagger: 127.0.0.1:8000/Docs
+
+- Redoc: 127.0.0.1:8000/Redoc
 
 # 🔧 Tecnologias Utilizadas
 

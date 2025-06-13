@@ -155,23 +155,23 @@ Retorna estatísticas do usuário:
 
 # 🔧 Tecnologias Utilizadas
 
--🐍 Python 3.12
+- 🐍 Python 3.12
 
--🚀 FastAPI
+- 🚀 FastAPI
 
--🛢 SQLAlchemy + SQLite
+- 🛢 SQLAlchemy + SQLite
 
--📦 Poetry
+- 📦 Poetry
 
--📐 Pydantic
+- 📐 Pydantic
 
--🧪 Pytest + Coverage
+- 🧪 Pytest + Coverage
 
--🛠 Ruff (lint)
+- 🛠 Ruff (lint)
 
--📌 Taskipy
+- 📌 Taskipy
 
--📍 Pyenv + Pipx
+- 📍 Pyenv + Pipx
 
 # 🗂 Estrutura de Pastas (sugestiva)
 ```bash

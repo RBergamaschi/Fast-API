@@ -196,6 +196,9 @@ O projeto é estruturado para facilitar expansão e manutenção futura
 
 # 👤 Autor
 Desenvolvido por Rodrigo Torres Bergamaschi
+
 Curso: Engenharia de Computação
+
 Contato: [rodrigotberga21@gmail.com]
+
 Repositório: github.com/RBergamaschi/Fast-API

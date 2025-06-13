@@ -10,6 +10,7 @@ Uma API REST para gerenciamento de atividades físicas, desenvolvida com **FastA
 - [🚀 Execução](#-execução)
 - [📋 Endpoints da API](#-endpoints-da-api)
 - [✅ Validações Aplicadas](#-validações-aplicadas)
+- [📋 Documentação](#-documentação)
 - [🔧 Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [🗂 Estrutura de Pastas (sugestiva)](#-estrutura-de-pastas-sugestiva)
 - [📚 Justificativas Técnicas](#-justificativas-técnicas)
@@ -153,7 +154,7 @@ Retorna estatísticas do usuário:
 
 - 🚫 Nenhum campo obrigatório pode estar vazio ou inválido.
 
-# Documentação 
+# 📋 Documentação 
 
 - Swagger: 127.0.0.1:8000/Docs
 

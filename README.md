@@ -55,12 +55,12 @@ pipx install poetry
 pipx ensurepath
 ```
 
-### Iniciando o projeto
+### Iniciando o projeto e o fastapi
 # Iniciando o poetry
+```
 poetry env activate
-
-# Iniciando o fastapi
 poetry run task run
+```
 
 ### 📋 Endpoints da API
 🔸 GET /
@@ -146,8 +146,6 @@ Retorna estatísticas do usuário:
 
 ###🗂 Estrutura de Pastas (sugestiva)
 ```bash
-Copiar
-Editar
 fast_zero/
 ├── app.py                   # Inicialização da aplicação
 ├── database.py              # Configuração do banco e sessão

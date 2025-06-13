@@ -54,9 +54,7 @@ pip install pipx
 pipx install poetry
 pipx ensurepath
 ```
-
-### Iniciando o projeto e o fastapi
-# Iniciando o poetry
+# Iniciando o poetry e o fastapi
 ```
 poetry env activate
 poetry run task run

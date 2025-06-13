@@ -58,7 +58,7 @@ poetry add --group dev ruff
 poettry add --group dev taskipy
 poetry add --group dev pytest pytest-cov
 ```
-#⚙️ Configurando o ambiente e as dependências(no pyproject.toml)
+### ⚙️ Configurando o ambiente e as dependências(no pyproject.toml)
 ```
 Ruff:
 [tool.ruff]

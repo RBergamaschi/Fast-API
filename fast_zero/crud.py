@@ -1,6 +1,7 @@
 from sqlalchemy.orm import Session
 from fast_zero import models, schemas_atividades
 from sqlalchemy import func
+from datetime import date
 
 
 def criar_atividade(db: Session, atividade: schemas_atividades.CriarAtividade):
@@ -11,15 +12,15 @@ def criar_atividade(db: Session, atividade: schemas_atividades.CriarAtividade):
     return db_atividade
 
 
-def pegar_atividades(db: Session, username=None, nome_atividade=None, data=None):
+def pegar_atividades(db: Session, username=None, nome_atividade=None, data_inicial= None, data_final = None):
     query = db.query(models.Atividade)
     
     if username:
         query = query.filter(models.Atividade.username == username)
     if nome_atividade:
         query = query.filter(models.Atividade.nome == nome_atividade)
-    if data:
-        query = query.filter(models.Atividade.data == data)   
+    if data_inicial and data_final:
+        query = query.filter(models.Atividade.data.between(data_inicial, data_final))  
     
     return query.all()
 

@@ -52,7 +52,38 @@ Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv
 # Instale Poetry via Pipx
 pip install pipx
 pipx install poetry
-pipx ensurepath
+pipx ensurepath -> para colocar as variáveis de ambiente do pipx nas variáveis de ambiente do sistema
+poetry add fastapi
+poetry add --group dev ruff
+poettry add --group dev taskipy
+poetry add --group dev pytest pytest-cov
+```
+#⚙️ Configurando o ambiente e as dependências(no pyproject.toml)
+```
+Ruff:
+[tool.ruff]
+line-length = 79
+extend-exclude = ['migrations']
+
+[tool.ruff.lint]
+preview = true
+select = ['I', 'F', 'E', 'W', 'PL', 'PL']
+
+[tool.ruff.format]
+preview = true
+quote-style = 'single'
+
+Taskipy:
+[tool.taskipy.tasks]
+run = 'fastapi dev fast_zero\app.py'
+pre_test = 'task lint'
+test = 'pytest --cov=fast_zero -vv'
+lint = 'ruff check . && ruff check . --diff'
+format = 'ruff check . --fix && ruff format .'
+
+Pytest:
+[tool.pytest.ini_options]
+pythonpath="."
 ```
 # Iniciando o poetry e o fastapi
 ```

@@ -12,11 +12,3 @@ class Atividade(Base):
     distancia = Column(Float, nullable = True)
     calorias = Column(Float, nullable = True)
     
-class User(Base):
-    __tablename__ = 'users'
-    
-    id = Column(Integer, primary_key = True, index = True)
-    nome = Column(String, nullable = False)
-    email = Column(String, unique = True, index = True, nullable = False)
-    senha = Column(String, nullable = False)
-    

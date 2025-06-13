@@ -176,12 +176,13 @@ Retorna estatísticas do usuário:
 # 🗂 Estrutura de Pastas (sugestiva)
 ```bash
 fast_zero/
-├── app.py                   # Inicialização da aplicação
-├── database.py              # Configuração do banco e sessão
-├── models.py                # Definições ORM
-├── crud.py                  # Operações com banco
-├── atividades.py            # Rotas da API
-├── schemas_atividades.py    # Schemas (entrada e saída)
+  ├── app.py                   # Inicialização da aplicação
+  ├── database.py              # Configuração do banco e sessão
+  ├── models.py                # Definições ORM
+  ├── crud.py                  # Operações com banco            
+  ├── schemas_atividades.py    # Schemas (entrada e saída)
+fast_zero/routers
+    ├── atividades.py          # Rotas da API
 ```
 # 📚 Justificativas Técnicas
 FastAPI oferece docs automáticas e alta performance

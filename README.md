@@ -156,9 +156,9 @@ Retorna estatísticas do usuário:
 
 # 📋 Documentação 
 
-- Swagger: 127.0.0.1:8000/Docs
+- Swagger: 127.0.0.1:8000/docs
 
-- Redoc: 127.0.0.1:8000/Redoc
+- Redoc: 127.0.0.1:8000/redoc
 
 # 🔧 Tecnologias Utilizadas
 

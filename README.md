@@ -60,7 +60,7 @@ poetry env activate
 poetry run task run
 ```
 
-### 📋 Endpoints da API
+# 📋 Endpoints da API
 🔸 GET /
 Mensagem de boas-vindas.
 
@@ -107,7 +107,7 @@ Retorna estatísticas do usuário:
 - Média de duração
 - Total de calorias
 
-###✅ Validações Aplicadas
+#✅ Validações Aplicadas
 
 - 📛 Nome: mínimo 1 caractere.
 
@@ -122,7 +122,7 @@ Retorna estatísticas do usuário:
 - 🚫 Nenhum campo obrigatório pode estar vazio ou inválido.
 
 
-###🔧 Tecnologias Utilizadas
+#🔧 Tecnologias Utilizadas
 
 -🐍 Python 3.12
 
@@ -142,7 +142,7 @@ Retorna estatísticas do usuário:
 
 -📍 Pyenv + Pipx
 
-###🗂 Estrutura de Pastas (sugestiva)
+#🗂 Estrutura de Pastas (sugestiva)
 ```bash
 fast_zero/
 ├── app.py                   # Inicialização da aplicação
@@ -152,7 +152,7 @@ fast_zero/
 ├── atividades.py            # Rotas da API
 ├── schemas_atividades.py    # Schemas (entrada e saída)
 ```
-###📚 Justificativas Técnicas
+#📚 Justificativas Técnicas
 FastAPI oferece docs automáticas e alta performance
 
 SQLite + SQLAlchemy simplificam persistência
@@ -163,7 +163,7 @@ Ruff mantém o código limpo e padronizado
 
 O projeto é estruturado para facilitar expansão e manutenção futura
 
-###👤 Autor
+#👤 Autor
 Desenvolvido por Rodrigo Torres Bergamaschi
 Curso: Engenharia de Computação
 Contato: [rodrigotberga21@gmail.com]

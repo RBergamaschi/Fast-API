@@ -6,14 +6,14 @@ Uma API REST para gerenciamento de atividades físicas, desenvolvida com **FastA
 
 ## 📌 Sumário
 
-- 📷 Visão Geral
-- 🚀 Execução
-- 📋 Endpoints da API
-- ✅ Validações Aplicadas
-- 🔧 Tecnologias Utilizadas
-- 🗂 Estrutura de Pastas (sugestiva)
-- 📚 Justificativas Técnicas
-- 👤 Autor
+- [📷 Visão Geral](#-visão-geral)
+- [🚀 Execução](#-execução)
+- [📋 Endpoints da API](#-endpoints-da-api)
+- [✅ Validações Aplicadas](#-validações-aplicadas)
+- [🔧 Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [🗂 Estrutura de Pastas (sugestiva)](#-estrutura-de-pastas-sugestiva)
+- [📚 Justificativas Técnicas](#-justificativas-técnicas)
+- [👤 Autor](#-autor)
 
 ---
 

@@ -53,6 +53,7 @@ Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv
 pip install pipx
 pipx install poetry
 pipx ensurepath
+```
 
 ### Iniciando o projeto
 # Iniciando o poetry
@@ -68,7 +69,7 @@ Mensagem de boas-vindas.
 🔸 POST /atividades/
 Cria uma nova atividade física.
 
-📦 Exemplo:
+```📦 Exemplo:
 {
   "nome": "Corrida",
   "duracao": 30,
@@ -77,6 +78,7 @@ Cria uma nova atividade física.
   "calorias": 250.0,
   "username": "joao"
 }
+```
 🔸 GET /atividades/
 Lista todas as atividades. Filtros opcionais:
 
@@ -91,10 +93,11 @@ Atualiza apenas os campos enviados. Campos permitidos:
 - calorias
 - distância
 
-📦 Exemplo:
+```📦 Exemplo:
 {
   "duracao": 45
 }
+```
 🔸 DELETE /atividades/{id_atividade}
 Remove uma atividade pelo ID.
 
@@ -142,7 +145,7 @@ Retorna estatísticas do usuário:
 -📍 Pyenv + Pipx
 
 ###🗂 Estrutura de Pastas (sugestiva)
-bash
+```bash
 Copiar
 Editar
 fast_zero/
@@ -152,7 +155,7 @@ fast_zero/
 ├── crud.py                  # Operações com banco
 ├── atividades.py            # Rotas da API
 ├── schemas_atividades.py    # Schemas (entrada e saída)
-
+```
 ###📚 Justificativas Técnicas
 FastAPI oferece docs automáticas e alta performance
 

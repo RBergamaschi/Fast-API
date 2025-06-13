@@ -60,6 +60,8 @@ poetry add --group dev pytest pytest-cov
 ```
 ### ⚙️ Configurando o ambiente e as dependências(no pyproject.toml)
 ```
+requires-python = ">=3.12,<4"
+
 Ruff:
 [tool.ruff]
 line-length = 79
